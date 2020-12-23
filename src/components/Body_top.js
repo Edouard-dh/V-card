@@ -39,7 +39,6 @@ export class Body_top extends Component {
 
                     </section>
                     <a>
-                       
                         <Button className="Button-ant-design" shape="circle" icon={<ArrowDownOutlined />} size={size} />
                     </a>
                 </section>
