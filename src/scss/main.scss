@@ -3,6 +3,7 @@
 @import "mixins";
 @import url("https://fonts.googleapis.com/css2?family=Martel:wght@800&display=swap");
 
+
 // Début Not Found
 
 .Page_not_found {
@@ -49,7 +50,7 @@
   @include margin_l_and_r;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: space-between;
   align-content: flex-start;
   img {
     width: 10rem;
@@ -58,12 +59,13 @@
     ul {
       display: flex;
       width: 100%;
-      padding-left: 0;
+      padding-left: 2rem;
       li {
         padding-right: 2rem;
         a {
           font-size: 2rem;
-          color: $primary_text_color;
+          color: $tertiary_text_color;
+
         }
       }
     }
