@@ -1,12 +1,35 @@
+import 'antd/dist/antd.css'
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import NotFound from "./components/NotFound";
+
+
+import {
+  BrowserRouter,
+  Switch,
+  Route
+
+} from "react-router-dom";
+
+
+export const Root = () => {
+  return (
+
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={App} />
+        <Route component={NotFound}/>
+      </Switch>
+    </BrowserRouter>
+
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Root />
   </React.StrictMode>,
   document.getElementById('root')
 );

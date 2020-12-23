@@ -1,11 +1,11 @@
-import '../src/scss/main.scss';
+import './scss/main.scss';
+import Body_top from'./components/Body_top'
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>coucou</h1>
-      </header>
+      <Body_top/>
     </div>
   );
 }
