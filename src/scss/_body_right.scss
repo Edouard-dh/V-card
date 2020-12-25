@@ -1,0 +1,52 @@
+//Début App-body-top
+.App-body-top {
+    background-color: $primary_background_color;
+    color: $primary_text_color;
+   
+    .App-body-middle {
+      @include margin_l_and_r;
+      img {
+        width: 100%;
+      }
+      .App-body-middle-div-text {
+        background-color: $primary_text_color;
+        p {
+          color: $secondary_text_color;
+        }
+        padding: 5rem;
+        a {
+          color: $tertiary_background_color;
+        }
+      }
+    }
+    @media screen and (min-width: $sm-breakpoint) {
+      .App-body-left {
+        max-width: 40%;
+      }
+      display: flex;
+      .App-body-middle {
+        display: flex;
+        margin: 0;
+        height: 100vh;
+        .App-body-middle-div {
+          width: 60%;
+        }
+        .App-body-middle-div-img {
+          height: 70vh;
+          overflow: hidden;
+        }
+        .App-body-middle-div-text {
+          height: 30vh;
+        }
+      }
+      .App-body-middle-div_two {
+        display: flex;
+        flex-direction: column-reverse;
+    .App-body-middle-div-text{
+      padding-top: 2rem;
+    }
+      }
+    }
+  }
+  
+  // Fin App-body-top

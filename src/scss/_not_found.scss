@@ -1,0 +1,37 @@
+// Début Not Found
+
+.Page_not_found {
+    font-family: "Martel", serif;
+    height: 100vh;
+    background-image: url(../img/P&B2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .Page_not_found_h1 {
+      h1 {
+        color: $primary_text_color;
+      }
+      align-self: flex-end;
+      margin-right: 10rem;
+    }
+    .Page_not_found_link {
+      align-self: center;
+      margin-bottom: 1.2rem;
+    }
+    @media screen and (min-width: $sm-breakpoint) {
+      background-image: url(../img/Berlioz.jpg);
+      background-size: cover;
+      .Page_not_found_h1 {
+        align-self: center;
+        margin-right: 0;
+        h1 {
+          color: $secondary_text_color;
+        }
+      }
+    }
+  }
+  
+  //Fin Not Found
