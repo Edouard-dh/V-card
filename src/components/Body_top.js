@@ -4,7 +4,6 @@ import tea from '../img/tea2.jpeg'
 import Header from './Header'
 import { ArrowDownOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
-import Tea_modal from './Tea_modal'
 import About_me from'./About_me_modal'
 
 
@@ -70,7 +69,6 @@ export class Body_top extends Component {
                             <p> Pour en savoir plus, je vous propose de cliquer sur le lien jsute en-dessous afin d'avoir des réponses à vos questions.
                             </p>
                             
-                            <a href="#"><Tea_modal/></a>
 
                         </div>
                     </div>
