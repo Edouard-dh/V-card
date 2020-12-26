@@ -11,12 +11,11 @@ export class Body_left extends Component {
         size: 'large',
     };
 
-
     render() {
         const { size } = this.state;
         
         return (
-            <div className="App-body-top">
+            
                 <section className="App-body-left">
                     <Header />
                     <section className="App-body-left-off-header" >
@@ -41,7 +40,7 @@ export class Body_left extends Component {
                     </a>
                 </section>
                 
-            </div>
+           
         )
     }
 }

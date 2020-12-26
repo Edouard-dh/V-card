@@ -1,33 +1,37 @@
 //Début App-body-left
-.App-body-top {
+
+.App-body-left {
     background-color: $primary_background_color;
     color: $primary_text_color;
-
-    .App-body-left {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 5rem;
-        h1 {
-            margin-top: 2rem;
-            font-size: 4rem;
-            text-transform: uppercase;
-            color: $primary_text_color;
-        }
-        h2 {
-            font-size: 2.5rem;
-            text-transform: uppercase;
-            color: $primary_text_color;
-        }
-        p {
-            @include margin_l_and_r;
-            font-size: 1.7rem;
-        }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5rem;
+    a {
+        align-self: center;
+    }
+    h1 {
+        margin-top: 2rem;
+        font-size: 4rem;
+        text-transform: uppercase;
+        color: $primary_text_color;
+    }
+    h2 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: $primary_text_color;
+    }
+    p {
+        @include margin_l_and_r;
+        font-size: 1.7rem;
     }
 
     @media screen and (min-width: $sm-breakpoint) {
         .App-body-left {
-            max-width: 40%;
+            max-width: 100%;
+            text-align: center;
+            height: 100vh;
+            width: 70%;
         }
     }
 }

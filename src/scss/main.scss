@@ -6,10 +6,12 @@
 // @import "body_top";
 @import "body_left";
 @import "body_right";
+@import "app";
 @import url("https://fonts.googleapis.com/css2?family=Martel:wght@800&display=swap");
 
 
 .Button-ant-design{
+  align-self: center;
   margin-top: 2rem;
   background-color: $tertiary_text_color;
   color: $primary_text_color;
@@ -25,9 +27,7 @@
 }
 
 
-.App {
-  text-align: center;
-}
+
 
 @keyframes App-logo-spin {
   from {
