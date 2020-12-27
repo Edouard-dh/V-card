@@ -1,0 +1,19 @@
+
+
+@media screen and (min-width:$sm-breakpoint ) and (max-width:$xl-breakpoint){
+  .App_top{
+  
+  }
+  };
+  
+
+
+@media screen and (min-width: $xl-breakpoint){
+    .App_top{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+}
+

@@ -29,6 +29,13 @@
     }
   }
 
+  @media screen and (min-width:$sm-breakpoint ) and (max-width:$md-breakpoint){
+    .App-body-right-div-two{
+      height: 100vh;
+    }
+  };
+
+
   @media screen and (min-width: $sm-breakpoint) {
       margin: 0%;
       height: 100vh;
