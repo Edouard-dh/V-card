@@ -39,7 +39,7 @@ export class Body_left extends Component {
                         <Button className="Button-ant-design" shape="circle" icon={<ArrowDownOutlined />} size={size} />
                     </a>
                 </section>
-                
+              
            
         )
     }
