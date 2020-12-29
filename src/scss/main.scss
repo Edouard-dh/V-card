@@ -10,23 +10,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Martel:wght@800&display=swap");
 
 
-.Button-ant-design{
-  align-self: center;
-  margin-top: 2rem;
-  background-color: $tertiary_text_color;
-  color: $primary_text_color;
-  &:hover,&:focus {
-    border-color: $tertiary_text_color;
-    color:$tertiary_text_color;
-  background-color: $primary_text_color;
-  }
- 
-  @media screen and (min-width: $sm-breakpoint) {
-  margin-top: 0rem;
-  }
-}
+  .Button-ant-design {
+    align-self: center;
+    margin-top: 2rem;
+    background-color: $tertiary_text_color;
+    color: $primary_text_color;
+    &:hover,
+    &:focus {
+      border-color: $tertiary_text_color;
+      color: $tertiary_text_color;
+      background-color: $primary_text_color;
+    }
 
-
+  
+  }
 
 
 @keyframes App-logo-spin {
