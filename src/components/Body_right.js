@@ -31,7 +31,7 @@ export class Body_right extends Component {
                     <div className="App-body-right-div-text">
                         <h2>À propos</h2>
                         <p>
-                            Se présenter en quelques lignes n'est pas chose aisée, c'est pourquoi je vous propose ici d'avoir une vue plus détaillée de mes formations, des langages que j'utilise ou encore de mon parcours qui m'a mené jusqu'ici.
+                            Se présenter en quelques lignes n'est pas chose aisée, c'est pourquoi je vous propose ici d'avoir une vue plus détaillée de mes formations, des langages que j'utilise ou encore de du parcours qui m'a mené jusqu'ici.
                         </p>
 
                         <a href="#"><About_me /></a>

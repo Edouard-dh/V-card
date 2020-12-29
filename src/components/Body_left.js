@@ -24,13 +24,13 @@ export class Body_left extends Component {
                         <p>
                             Bonjour, je m'appelle Édouard D'Halluin je suis développeur web full stack.
                         </p>
-                        <p>Passionné, au quotidien je me lève avec le sourire quand je vais travailler toujours accompagné de ma fidèle tasse de thé. Persévérant, les défis ne me font pas peur, se sont grâce à eux que l'on grandit. Jovial,j'apprécie travailer en équipe et pouvoir partager mon savoir, ainsi qu'écouter les conseils de mes paires le tout dans la bonne humeur.
+                        <p>Passionné, au quotidien je me lève avec le sourire quand je vais travailler toujours accompagné de ma fidèle tasse de thé. Persévérant, les défis ne me font pas peur, c'est grâce à eux que l'on grandit. Jovial,j'apprécie travailler en équipe et pouvoir partager mon savoir, ainsi qu'écouter les conseils de mes pairs le tout dans la bonne humeur.
                         </p>
                         <p>
-                            Durant mes formations, j'ai été amener à mettre en pratique les enseignements que l'on m'a donnés lors de travaux pratiques. Pour continuer mon apprentissage j'ai décidé de reprendre certains d'entres-eux en y ajoutant ma touche personnelle, et en les retravaillant avec les dèrnières méthodes apprises.
+                            Durant mes formations, j'ai été amener à mettre en pratique les enseignements que l'on m'a prodigués lors de travaux pratiques. Pour continuer mon apprentissage j'ai décidé de reprendre certains d'entre eux en y ajoutant ma touche personnelle, et en les retravaillant avec les dernières méthodes apprises.
                         </p>
                         <p>
-                            Pour avoir un apreçu de mes travaux cliquez sur la flèche juste en dessous (Work in progress)
+                            Pour avoir un aperçu de mes travaux cliquez sur la flèche juste en dessous (Work in progress)
                         </p>
 
                     </section>
