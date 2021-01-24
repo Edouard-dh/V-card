@@ -26,7 +26,9 @@
         @include margin_l_and_r;
         font-size: 1.7rem;
     }
-
+    .button_bosdy_left{
+        align-self: center;
+    }
     @media screen and (min-width: $sm-breakpoint) {
         .App-body-left {
             max-width: 100%;

@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import NotFound from "./components/NotFound";
+import Portefolio from"./components/Portfolio"
 
 
 import {
@@ -20,6 +21,7 @@ export const Root = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={App} />
+        <Route path="/portfolio" component={Portefolio} />
         <Route component={NotFound}/>
       </Switch>
     </BrowserRouter>

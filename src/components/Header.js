@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import logovert from '../img/logon-vide.png'
+import{Link } from 'react-router-dom'
 import {GithubOutlined, LinkedinOutlined,FileMarkdownOutlined  } from '@ant-design/icons';
 
 export class Header extends Component {
@@ -8,9 +9,9 @@ export class Header extends Component {
         return (
             <header className="App-header">
                 <div className="App-header-div">
-                    <div>
+                    <Link to="/"> 
                         <img src={logovert} className='' alt='Logo édouard d halluin' />
-                    </div>
+                    </Link>
                     <div id="outer-container"> 
                        
                          <nav className="App-header-nav">
