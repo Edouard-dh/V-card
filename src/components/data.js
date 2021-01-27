@@ -9,8 +9,8 @@ const data = [
     {
         id: 2,
         name: "Gw2 fan site",
-        text: "Gw2 fan site est un site réaliser avec Bootstrap.",
-        url:"www.gw2-fan-site.edouard-dhalluin.fr",
+        text: "Gw2 fan site est un site réalisé avec Bootstrap.",
+        url:"http://www.gw2-fan-site.edouard-dhalluin.fr/",
         image:`${process.env.PUBLIC_URL}/img/gw2.jpg` 
     }
    
