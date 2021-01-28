@@ -35,7 +35,7 @@ export class Body_left extends Component {
                 </section>
                 <div>
                     <p>
-                    Pour avoir un aperçu de mes travaux cliquez sur la flèche juste en dessous pour arriver sur mon portefolio (Work in progress)
+                    Pour avoir un aperçu de mes travaux cliquez sur la flèche juste en dessous pour arriver sur mon portefolio.
                     </p>
                 </div>
                 <div className="button_bosdy_left">

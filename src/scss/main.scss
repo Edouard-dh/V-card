@@ -3,7 +3,6 @@
 @import "mixins";
 @import "header";
 @import "not_found";
-// @import "body_top";
 @import "body_left";
 @import "body_right";
 @import "app_top";
@@ -26,6 +25,9 @@
   
   }
 
+  // .About_me{
+  //   overflow: auto;
+  // }
 
 @keyframes App-logo-spin {
   from {
