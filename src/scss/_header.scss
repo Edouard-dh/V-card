@@ -18,11 +18,15 @@
         padding-left: 2rem;
         li {
           padding-right: 2rem;
+          .header-portfolio{
+            width: 2.3rem;
+          }
           a {
             font-size: 2rem;
             color: $tertiary_text_color;
   
           }
+          
         }
       }
     }

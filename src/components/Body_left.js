@@ -33,16 +33,7 @@ export class Body_left extends Component {
                     </p>
 
                 </section>
-                <div>
-                    <p>
-                    Pour avoir un aperçu de mes travaux cliquez sur la flèche juste en dessous pour arriver sur mon portefolio.
-                    </p>
-                </div>
-                <div className="button_bosdy_left">
-                    <Link to="/portfolio" >
-                        <Button className="Button-ant-design" shape="circle" icon={<ArrowDownOutlined />} size={size}  />
-                    </Link>
-                </div>
+                
             </section>
 
 

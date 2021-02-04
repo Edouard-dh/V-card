@@ -13,7 +13,6 @@
         position: absolute;
         img {
             width: 100%;
-            z-index: 1;
         }
     }
     .div_text {
@@ -31,11 +30,15 @@
     }
 }
 
-@media screen and (min-width:$sm-breakpoint ) and (max-width:$md-breakpoint){
+@media screen and (min-width:$lg-breakpoint ) and (max-width:$xl-breakpoint){
 
+    
 }
 
 
-@media screen and (min-width: $sm-breakpoint) {
-
+@media screen and (min-width: $xl-breakpoint) {
+    .div_Carousel{
+        align-items: center;
+    
+    }
 }
