@@ -1,44 +1,42 @@
 // Début header
 .App-header {
-    background-color: $primary_background_color;
+  background-color: $primary_background_color;
+}
+.App-header-div {
+  @include margin_l_and_r;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: flex-start;
+  img {
+    width: 10rem;
   }
-  .App-header-div {
-    @include margin_l_and_r;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-content: flex-start;
-    img {
-      width: 10rem;
-    }
-    .App-header-nav {
-      ul {
-        display: flex;
-        width: 100%;
-        padding-left: 2rem;
-        li {
-          padding-right: 2rem;
-          .header-portfolio{
-            width: 2.3rem;
-          }
-          a {
-            font-size: 2rem;
-            color: $tertiary_text_color;
-  
-          }
-          
+  .App-header-nav {
+    ul {
+      display: flex;
+      width: 100%;
+      padding-left: 2rem;
+      li {
+        padding-right: 2rem;
+        .header-portfolio {
+          width: 5rem;
+        }
+        a {
+          font-size: 2.5rem;
+          color: $tertiary_text_color;
         }
       }
     }
-  
-    @media screen and (min-width: $sm-breakpoint) {
-      background-color: $primary_background_color;
+  }
+
+  @media screen and (min-width: $sm-breakpoint) {
+    background-color: $primary_background_color;
+    display: flex;
+    justify-content: space-around;
+    ul {
       display: flex;
-      justify-content: space-around;
-      ul {
-        display: flex;
-      }
     }
   }
-  
-  //Fin header
+}
+
+//Fin header

@@ -16,13 +16,11 @@ export class Header extends Component {
                        
                          <nav className="App-header-nav">
                             <ul>
-                                <li><a href={`${process.env.PUBLIC_URL}/document/CVEdouard21.pdf`} target="_blank" > CV</a></li>
-                                <li><a href="https://www.linkedin.com/in/edouarddhalluin/"  target="_blank" > <LinkedinOutlined/></a></li>
-                                <li><a href="https://github.com/Edouard-dh" target="_blank" > <GithubOutlined /></a></li>
+                                
                                 <li>
                                 <Link to="/portfolio" ><img 
                                     className='header-portfolio' src={`${process.env.PUBLIC_URL}/img/portfolio.png`} alt="image du portfolio"/>
-                                    </Link>
+                                </Link>
                                 </li>
                             </ul>
                         </nav> 

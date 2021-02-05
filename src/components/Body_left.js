@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from './Header'
-import { ArrowDownOutlined } from '@ant-design/icons';
 import { Button} from 'antd';
+import {GithubOutlined, LinkedinOutlined,FileMarkdownOutlined  } from '@ant-design/icons';
 import{Link } from 'react-router-dom'
 
 export class Body_left extends Component {
@@ -31,7 +31,15 @@ export class Body_left extends Component {
                     <p>
                     Une fois le mélange fait mettez le tout dans une longue boule à thé d'1m88, laissez-le infuser 10 ans dans les métiers de bouche à 59 °C. Pour que tous les arômes se libèrent, il est conseillé de le manger avec une gaufrette dunkerquoise, mais il se marie tout aussi bien avec n’importe qu’elle autre sucrerie.
                     </p>
-
+                    <nav className="App-body_left_nav">
+                            <ul>
+                                <li><a href={`${process.env.PUBLIC_URL}/document/CVEdouard21.pdf`} target="_blank" > CV</a></li>
+                                <li><a href="https://www.linkedin.com/in/edouarddhalluin/"  target="_blank" > <LinkedinOutlined/></a></li>
+                                <li><a href="https://github.com/Edouard-dh" target="_blank" > <GithubOutlined /></a></li>
+                                <li>
+                                </li>
+                            </ul>
+                        </nav>
                 </section>
                 
             </section>
