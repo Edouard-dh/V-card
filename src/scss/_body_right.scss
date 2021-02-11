@@ -57,10 +57,18 @@
       .App-body-right-div-img-two {
         height: 74vh;
         overflow: hidden;
+        img{
+         height:60vh;
+        }
         }
     .App-body-right-div-text {
       padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      height: 49%;
     }
+    
   }
 }
 

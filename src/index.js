@@ -8,7 +8,7 @@ import Portefolio from"./components/Portfolio"
 
 
 import {
-  BrowserRouter,
+  HashRouter,
   Switch,
   Route
 
@@ -18,13 +18,13 @@ import {
 export const Root = () => {
   return (
 
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/portfolio" component={Portefolio} />
         <Route component={NotFound}/>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
 
   )
 }
