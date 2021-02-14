@@ -19,6 +19,13 @@ const data = [
         text: "Voici la liste magique qu'utilise le Père Noël, lui permetant de trouver le cadeau idéal pour chaque enfant. Elle est réalisée en React avec des Hook et Redux. ",
         url:"https://the-hohoho-liste.edouard-dhalluin.fr/",
         image:`${process.env.PUBLIC_URL}/img/santadab.jpg` 
+    },
+    {
+        id:4,
+        name:"Ça part en live",
+        text: "One-page réaliser pour la chaine twitch d'un ami.",
+        url:"https://cpl.edouard-dhalluin.fr/",
+        image:`${process.env.PUBLIC_URL}/img/cpl.jpg` 
     }
    
     
