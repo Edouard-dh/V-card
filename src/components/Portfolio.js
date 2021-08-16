@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Carousel } from 'antd';
 import { Projet } from './Projet'
 import data from './data'
 import '../scss/main.scss';
@@ -26,9 +25,9 @@ export default class Portfolio extends Component {
                 <Header />
 
                 <section className="App-portefolio">
-                    <Carousel autoplay >
+                   
                         {projetList}
-                    </Carousel >
+                   
                 </section>
             </div>
         )

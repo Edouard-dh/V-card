@@ -26,8 +26,14 @@ const data = [
         text: "One-page réaliser pour la chaine twitch d'un ami.",
         url:"https://cpl.edouard-dhalluin.fr/",
         image:`${process.env.PUBLIC_URL}/img/cpl.jpg` 
-    }
-   
+    },
+    {
+        id:5,
+        name:"Corsell",
+        text: "Projet fil rouge réaliser durant la formation en trinome avec Alexandre Roy, Jérémy Dejonghe et moi même.",
+        url:"https://cor-sell.edouard-dhalluin.fr/",
+        image:`${process.env.PUBLIC_URL}/img/corsell.jpg` 
+    },
     
 ];
 

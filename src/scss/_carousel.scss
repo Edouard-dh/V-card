@@ -2,27 +2,32 @@
 @import "reset";
 @import "mixins";
 
+
+.App-portefolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: $primary_background_color;
+
+}
+
 .div_Carousel {
     background-color: $primary_background_color;
     color: $primary_text_color;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    .div_image{
-        position: absolute;
-        img {
-            width: 100%;
-        }
-    }
+ width: 100%;
+ margin: 1rem;
+ .div_image{
+     img{
+     width: 100%;
+ }
+ }
     .div_text {
     border-radius: 20px;
-        position: relative;
         z-index: 2;
         top: 20rem;
         background-color: $primary_background_color;
         padding: 2rem;
-        width: 50%;
         align-self: center;
         a {
             color: $tertiary_text_color;
@@ -37,8 +42,9 @@
 
 
 @media screen and (min-width: $xl-breakpoint) {
+
     .div_Carousel{
-        align-items: center;
+        width: 40%;
     
     }
 }
