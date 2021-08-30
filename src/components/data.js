@@ -34,6 +34,13 @@ const data = [
         url:"https://cor-sell.edouard-dhalluin.fr/",
         image:`${process.env.PUBLIC_URL}/img/corsell.jpg` 
     },
+    {
+        id:6,
+        name:"Dark & Light",
+        text: "Petit projet afin de crée un dark thème réutilisable .",
+        url:"https://darkandlight.edouard-dhalluin.fr/",
+        image:`${process.env.PUBLIC_URL}/img/D&L.PNG` 
+    },
     
 ];
 
