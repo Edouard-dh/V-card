@@ -41,6 +41,13 @@ const data = [
         url:"https://darkandlight.edouard-dhalluin.fr/",
         image:`${process.env.PUBLIC_URL}/img/D&L.PNG` 
     },
+    {
+        id:6,
+        name:"Hooki Doki",
+        text: "Ce projet à pour but d'utilsier des hooks afin d'ajouter via un formulaire des données dans une base de données sous strapi et de les afficher sans changement de page.",
+        url:"https://hookidoki.edouard-dhalluin.fr/",
+        image:`${process.env.PUBLIC_URL}/img/hookidooki.PNG` 
+    },
     
 ];
 
