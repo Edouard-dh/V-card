@@ -44,7 +44,7 @@ const data = [
     {
         id:6,
         name:"Hooki Doki",
-        text: "Ce projet à pour but d'utilsier des hooks afin d'ajouter via un formulaire des données dans une base de données sous strapi et de les afficher sans changement de page.",
+        text: "Ce projet à pour but d'utilsier des hooks afin d'ajouter via un formulaire des données dans une base de données sous strapi et de les afficher sans changement de page.Afin d'utiliser au mieux ce projet il vous sera demander de faire un git clone sur votre pc de ceci https://github.com/Edouard-dh/hookidookiapi.",
         url:"https://hookidoki.edouard-dhalluin.fr/",
         image:`${process.env.PUBLIC_URL}/img/hookidooki.PNG` 
     },
